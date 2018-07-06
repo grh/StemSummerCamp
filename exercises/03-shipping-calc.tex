@@ -1,0 +1,64 @@
+\documentclass[11pt]{article}
+
+\usepackage[top=1in, bottom=1in, left=1.5in, right=1.5in]{geometry}
+
+%\setlength{\parindent}{0em}
+%\setlength{\parskip}{0.5em}
+
+\begin{document}
+
+    \begin{center}
+
+        \large\textbf{Stem Summer Camp: Python} \\
+        Shipping Calculator \\
+
+    \end{center}
+
+    \paragraph{Purpose:} After completing this assignment, you will be
+    able to:
+
+        \begin{itemize}
+
+            \item Make use of Python variables to store values
+
+            \item Demonstrate how to use if statements in Python
+
+        \end{itemize}
+
+    \paragraph{Task:} Write a program that asks the user the enter a
+    shipping weight of a package and calculates the shipping cost based
+    on the package weight.
+    
+    \paragraph{Discussion:} Use the following guidelines to determine
+    the shipping cost:
+
+    \begin{itemize}
+
+        \item If the package weighs less than 2lbs, the shipping cost is
+            \$1.15 per pound
+
+        \item If the package weighs between 2lbs and 10lbs inclusive,
+            the shipping cost is \$2.27 per pound
+
+        \item if the package weighs more than 10lbs, the shipping cost
+            is a flat-rate of \$30
+
+    \end{itemize}
+    
+    The program must run as follows:
+    
+    \vspace{1.5em}
+
+\begin{verbatim}
+$ python shippingCost.py
+Enter the package weight: 7
+The shipping cost is $15.89
+$
+
+$ python shippingCost.py
+Enter the package weight: 12
+The shipping cost is $30
+$
+\end{verbatim}
+
+\end{document}

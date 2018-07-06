@@ -1,0 +1,127 @@
+\documentclass{article}
+
+\usepackage{enumitem}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage{indentfirst}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{titlesec}
+
+\renewcommand*{\familydefault}{\sfdefault}
+\setlength{\parindent}{2em}
+\titleformat{\section}{\large\bfseries}{}{}{}
+\titleformat{\subsection}[block]{\hspace{2em}\itshape}{\thesubsection}{1em}{}
+
+\newenvironment{schedule}{\def\arraystretch{1.25}}{\def\arraystretch{1}}
+
+\begin{document}
+
+    \newgeometry{top=0.5in, bottom=0.25in, left=0.75in, right=0.75in}
+    \thispagestyle{empty}
+
+    \begin{center}
+        \textbf{STEM Summer Camp} \\
+        University of Nevada, Las Vegas \\ 
+    \end{center}
+
+    \section*{Instructor}
+
+        \vspace{-1em}
+
+        \setlength{\tabcolsep}{1.5em}
+
+        \begin{center}\begin{tabular}{p{0.45\textwidth} p{0.45\textwidth}}
+
+            Name: Guymon Hall & Phone: 702-895-4852 \\
+            Office: TBE-B382, Mo--Th 12--2pm & Email: guymon.hall@unlv.edu \\
+
+        \end{tabular}\end{center}
+
+        \vspace{-1.25em}
+
+    \section*{Course Objectives}
+
+        \hangindent=2em \indent After completing this course, you will
+        be able to:
+
+        \begin{itemize}[leftmargin=4em]
+
+            \item Create programs in the Python programming language using
+                sequential, selection, and repetition structures
+
+            \item Utilize object-oriented programming techniques to
+                develop robust programming solutions in the Python
+                programming language
+
+            \item Solve programming tasks by adapting Python programming
+                language constructs to a specific solution
+
+        \end{itemize}
+        
+    \section*{Textbooks}
+
+        \emph{Python Programming: An Introduction to Computer Science}
+            (3rd edition), by John Zelle, \\
+            \indent \indent Franklin, Beedle, \& Associations, 2016, ISBN-13 9781590282755
+
+        %\emph{Learn to Program} (2nd edition), Chris Pine,
+        %The Pragmatic Bookshelf, 2013, ISBN-13 9781934356364
+
+        %\emph{The Well-Grounded Rubyist} (2nd edition), David A. Black,
+        %Manning Publications, 2014, ISBN-13 9781617291692
+
+    \section*{Schedule of Topics}
+
+        \begin{schedule}\begin{center}\begin{tabular}{| l | l | l |}
+
+            \hline
+            \multicolumn{3}{| c |}{\textbf{Python Basics}} \\
+            \hline
+
+            Module 1 & Programming Fundamentals \& Introduction to Python                      &  \\ \hline
+            Module 2 & Arithmetic, Assignment, Data Types, Variables, \& Basic Input/Output    &  \\
+
+            \hline
+            \multicolumn{3}{| c |}{\textbf{Selection, Repetition, \& Collections}} \\
+            \hline
+
+            Module 3 & Relational Operators, Logical Expressions, \& Conditional Statements    &  \\ \hline
+            Module 4 & Looping \& Iteration                                                    &  \\ \hline
+            Module 5 & Lists \& Dictionaries &  \\ \hline
+            Module 6 & List Comprehensions & \\
+
+            \hline
+            \multicolumn{3}{| c |}{\textbf{Files, Strings, \& Functional Decomposition}} \\
+            \hline
+
+            Module 7 & File Operations \& Text Processing                                      &  \\ \hline
+            Module 8 & Functions, Parameter Passing, Return Values, Recursion                             &  \\
+
+            \hline
+            \multicolumn{3}{| c |}{\textbf{Object-Oriented Programming}} \\
+            \hline
+
+            Module 9  & Abstract Data Types, Classes, \& Objects                               &  \\ \hline
+            Module 10  & Class Methods \& Variables                                             &  \\ \hline
+            Module 11 & Class Inheritance                                                      &  \\
+
+            \hline
+            \multicolumn{3}{| c |}{\textbf{Beyond Python Basics}} \\
+            \hline
+
+            Module 12 & Python Modules                                                          &  \\ \hline
+            Module 13 & Advanced Python Algorithms                                              &  \\ \hline
+            Module 14 & Advanced Python Algorithms                                              &  \\ 
+            
+            \hline
+            \multicolumn{3}{| c |}{\textbf{Final Exam}} \\
+            \hline
+
+        \end{tabular}\end{center}\end{schedule}
+
+        \newpage
+        \restoregeometry
+
+\end{document}
